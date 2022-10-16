@@ -23,7 +23,7 @@ function Client() {
         </thead>
         <tbody>
           {data.clients.map((client: ClientProp) => (
-            <ClientRow client={client} id={client.id} key={client.id} />
+            <ClientRow client={client} key={client.id} />
           ))}
         </tbody>
       </table>
